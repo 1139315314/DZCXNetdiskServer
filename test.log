@@ -1,0 +1,96 @@
+2020-11-13 23:25:11 DEBUG TestSomethings:11 - debug
+2020-11-13 23:25:11 WARN  TestSomethings:12 - warm
+2020-11-13 23:25:11 ERROR TestSomethings:13 - error
+2020-11-14 00:01:55 INFO  Main:23 - 正在加载配置中···
+2020-11-14 00:01:55 INFO  Main:26 - 启动完成，网盘版本为：1.0.0启动耗时：20ms
+2020-11-14 00:31:43 INFO  Main:25 - 正在加载配置中···
+2020-11-14 00:31:43 ERROR Main:31 - D:\wangpan\DZCXNetdiskServer\iNetdiskServer.ini (系统找不到指定的文件。)
+2020-11-14 00:31:43 INFO  Main:36 - 启动完成，网盘版本为：1.0.0启动耗时：82ms
+2020-11-14 00:32:31 INFO  Main:25 - 正在加载配置中···
+2020-11-14 00:32:31 ERROR Main:31 - parse error (at line: 4): root=%core%\root
+2020-11-14 00:32:31 INFO  Main:36 - 启动完成，网盘版本为：1.0.0启动耗时：32ms
+2020-11-14 00:33:40 INFO  Main:25 - 正在加载配置中···
+2020-11-14 00:33:40 ERROR Main:31 - parse error (at line: 4): root=core\root
+2020-11-14 00:33:40 INFO  Main:36 - 启动完成，网盘版本为：1.0.0启动耗时：42ms
+2020-11-14 00:34:34 INFO  Main:25 - 正在加载配置中···
+2020-11-14 00:34:34 INFO  Main:36 - 启动完成，网盘版本为：1.0.0启动耗时：94ms
+2020-11-14 10:57:10 INFO  Main:27 - 正在加载配置中···
+2020-11-14 10:57:10 INFO  Main:34 - 启动完成，网盘版本为：1.0.0启动耗时：291ms
+2020-11-14 10:59:57 INFO  Main:27 - 正在加载配置中···
+2020-11-14 10:59:57 INFO  Main:39 - 启动完成，网盘版本为：1.0.0启动耗时：382ms
+2020-11-14 11:00:27 INFO  Main:27 - 正在加载配置中···
+2020-11-14 11:00:27 INFO  Main:39 - 启动完成，网盘版本为：1.0.0启动耗时：291ms
+2020-11-14 11:01:31 INFO  Main:27 - 正在加载配置中···
+2020-11-14 11:01:32 INFO  Main:40 - 启动完成，网盘版本为：1.0.0启动耗时：349ms
+2020-11-14 11:03:14 INFO  Main:27 - 正在加载配置中···
+2020-11-14 11:03:15 INFO  Main:41 - 启动完成，网盘版本为：1.0.0启动耗时：274ms
+2020-11-14 11:03:37 INFO  Main:27 - 正在加载配置中···
+2020-11-14 11:03:37 INFO  Main:41 - 启动完成，网盘版本为：1.0.0启动耗时：108ms
+2020-11-14 11:04:04 INFO  Main:27 - 正在加载配置中···
+2020-11-14 11:04:04 INFO  Main:41 - 启动完成，网盘版本为：1.0.0启动耗时：96ms
+2020-11-14 11:04:24 INFO  Main:27 - 正在加载配置中···
+2020-11-14 11:04:24 INFO  Main:41 - 启动完成，网盘版本为：1.0.0启动耗时：88ms
+2020-11-14 11:09:34 INFO  Main:31 - 正在加载配置中···
+2020-11-14 11:09:34 INFO  Main:42 - 网盘的根目录：D:\wangpan\DZCXNetdiskServer\root
+2020-11-14 11:09:34 INFO  Main:64 - 启动完成，网盘版本为：1.0.0启动耗时：178ms
+2020-11-14 11:13:41 INFO  Main:31 - 正在加载配置中···
+2020-11-14 11:13:41 INFO  Main:42 - 网盘的根目录：D:\wangpan\DZCXNetdiskServer\root
+2020-11-14 11:13:41 INFO  Main:65 - 启动完成，网盘版本为：1.0.0启动耗时：130ms
+2020-11-14 11:19:17 INFO  Main:32 - 正在加载配置中···
+2020-11-14 11:19:17 INFO  Main:43 - 网盘的根目录：D:\wangpan\DZCXNetdiskServer\root
+2020-11-14 11:19:17 INFO  Main:64 - 通用请求端口：33001
+2020-11-14 11:19:17 INFO  Main:65 - 状态请求端口：33002
+2020-11-14 11:19:17 INFO  Main:66 - 上传文件端口：33003
+2020-11-14 11:19:17 INFO  Main:67 - 下载文件端口：33004
+2020-11-14 11:19:17 INFO  Main:70 - 正在启动服务..
+2020-11-14 11:19:17 INFO  Main:78 - 启动完成，网盘版本为：1.0.0启动耗时：234ms
+2020-11-14 12:28:09 INFO  Main:31 - 正在加载配置中···
+2020-11-14 12:28:09 INFO  Main:42 - 网盘的根目录：D:\wangpan\DZCXNetdiskServer\root
+2020-11-14 12:28:09 INFO  Main:63 - 通用请求端口：33001
+2020-11-14 12:28:09 INFO  Main:64 - 状态请求端口：33002
+2020-11-14 12:28:09 INFO  Main:65 - 上传文件端口：33003
+2020-11-14 12:28:09 INFO  Main:66 - 下载文件端口：33004
+2020-11-14 12:28:09 INFO  Main:69 - 正在启动服务..
+2020-11-14 12:28:09 INFO  Main:77 - 启动完成，网盘版本为：1.0.0启动耗时：202ms
+2020-11-14 12:35:02 INFO  Main:31 - 正在加载配置中···
+2020-11-14 12:35:03 INFO  Main:42 - 网盘的根目录：D:\wangpan\DZCXNetdiskServer\root
+2020-11-14 12:35:03 INFO  Main:63 - 通用请求端口：33001
+2020-11-14 12:35:03 INFO  Main:64 - 状态请求端口：33002
+2020-11-14 12:35:03 INFO  Main:65 - 上传文件端口：33003
+2020-11-14 12:35:03 INFO  Main:66 - 下载文件端口：33004
+2020-11-14 12:35:03 INFO  Main:69 - 正在启动服务..
+2020-11-14 12:35:03 INFO  Main:77 - 启动完成，网盘版本为：1.0.0启动耗时：147ms
+2020-11-14 12:35:43 INFO  Main:32 - 正在加载配置中···
+2020-11-14 12:35:43 INFO  Main:43 - 网盘的根目录：D:\wangpan\DZCXNetdiskServer\root
+2020-11-14 12:35:43 INFO  Main:64 - 通用请求端口：33001
+2020-11-14 12:35:43 INFO  Main:65 - 状态请求端口：33002
+2020-11-14 12:35:43 INFO  Main:66 - 上传文件端口：33003
+2020-11-14 12:35:43 INFO  Main:67 - 下载文件端口：33004
+2020-11-14 12:35:43 INFO  Main:70 - 正在启动服务..
+2020-11-14 12:35:43 INFO  Main:79 - 启动完成，网盘版本为：1.0.0启动耗时：164ms
+2020-11-14 12:35:50 INFO  Main:36 - 新的链接建立，IP：127.0.0.1
+2020-11-14 12:35:50 DEBUG Sigar:60 - no sigar-amd64-winnt.dll in java.library.path
+org.hyperic.sigar.SigarException: no sigar-amd64-winnt.dll in java.library.path
+	at org.hyperic.sigar.Sigar.loadLibrary(Sigar.java:172)
+	at org.hyperic.sigar.Sigar.<clinit>(Sigar.java:100)
+	at com.dzcx.netdisk.socket.StateSocket.<init>(StateSocket.java:18)
+	at com.dzcx.netdisk.listener.StateListener.run(StateListener.java:38)
+2020-11-14 12:37:07 INFO  Main:32 - 正在加载配置中···
+2020-11-14 12:37:07 INFO  Main:43 - 网盘的根目录：D:\wangpan\DZCXNetdiskServer\root
+2020-11-14 12:37:08 INFO  Main:64 - 通用请求端口：33001
+2020-11-14 12:37:08 INFO  Main:65 - 状态请求端口：33002
+2020-11-14 12:37:08 INFO  Main:66 - 上传文件端口：33003
+2020-11-14 12:37:08 INFO  Main:67 - 下载文件端口：33004
+2020-11-14 12:37:08 INFO  Main:70 - 正在启动服务..
+2020-11-14 12:37:08 INFO  Main:79 - 启动完成，网盘版本为：1.0.0启动耗时：178ms
+2020-11-14 12:37:11 INFO  Main:36 - 新的链接建立，IP：127.0.0.1
+2020-11-14 12:38:08 ERROR Main:37 - Software caused connection abort: socket write error
+2020-11-14 12:39:29 INFO  Main:32 - 正在加载配置中···
+2020-11-14 12:39:29 INFO  Main:43 - 网盘的根目录：D:\wangpan\DZCXNetdiskServer\root
+2020-11-14 12:39:29 INFO  Main:64 - 通用请求端口：33001
+2020-11-14 12:39:29 INFO  Main:65 - 状态请求端口：33002
+2020-11-14 12:39:29 INFO  Main:66 - 上传文件端口：33003
+2020-11-14 12:39:29 INFO  Main:67 - 下载文件端口：33004
+2020-11-14 12:39:29 INFO  Main:70 - 正在启动服务..
+2020-11-14 12:39:29 INFO  Main:79 - 启动完成，网盘版本为：1.0.0启动耗时：246ms
+2020-11-14 12:39:36 INFO  Main:36 - 新的链接建立，IP：127.0.0.1
