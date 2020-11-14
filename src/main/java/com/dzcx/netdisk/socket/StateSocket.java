@@ -55,7 +55,7 @@ public class StateSocket extends Thread {
         try {
             Mem mem = sigar.getMem();
             CpuPerc cp = sigar.getCpuPerc();
-            FileSystem fs = sigar.getFileSystemList()[1];
+            FileSystem fs = sigar.getFileSystemList()[0];
             FileSystemUsage usage = sigar.getFileSystemUsage(fs.getDirName());
 
             status.setCpuUse(cp.getCombined());
