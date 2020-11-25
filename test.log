@@ -146,6 +146,14 @@ org.hyperic.sigar.SigarException: no sigar-amd64-winnt.dll in java.library.path
 2020-11-14 19:40:27 INFO  Main:79 - 启动完成，网盘版本为：1.0.0启动耗时：66ms
 2020-11-14 19:40:31 INFO  Main:36 - 新的链接建立，IP：127.0.0.1
 2020-11-14 19:40:43 INFO  Main:38 - State socket 断开连接
+2020-11-25 14:08:20 INFO  Main:32 - 正在加载配置中···
+2020-11-25 14:08:20 INFO  Main:43 - 网盘的根目录：C:\wangpan\DZCXNetdiskServer\root
+2020-11-25 14:08:20 INFO  Main:64 - 通用请求端口：33001
+2020-11-25 14:08:20 INFO  Main:65 - 状态请求端口：33002
+2020-11-25 14:08:20 INFO  Main:66 - 上传文件端口：33003
+2020-11-25 14:08:20 INFO  Main:67 - 下载文件端口：33004
+2020-11-25 14:08:20 INFO  Main:70 - 正在启动服务..
+2020-11-25 14:08:20 INFO  Main:79 - 启动完成，网盘版本为：1.0.0启动耗时：86ms
 2020-11-17 23:03:32 INFO  Main:32 - 正在加载配置中···
 2020-11-17 23:03:32 INFO  Main:43 - 网盘的根目录：D:\MyNetdisk\DZCXNetdiskServer\root
 2020-11-17 23:03:33 INFO  Main:64 - 通用请求端口：33001
@@ -188,3 +196,55 @@ org.hyperic.sigar.SigarException: no sigar-amd64-winnt.dll in java.library.path
 2020-11-18 00:23:46 INFO  Main:37 - State socket 断开连接
 2020-11-18 00:24:06 INFO  Main:36 - 新的链接建立，IP：127.0.0.1
 2020-11-18 01:05:16 INFO  Main:37 - State socket 断开连接
+2020-11-25 14:10:16 INFO  Main:32 - 正在加载配置中···
+2020-11-25 14:10:16 INFO  Main:43 - 网盘的根目录：C:\wangpan\DZCXNetdiskServer\root
+2020-11-25 14:10:16 INFO  Main:64 - 通用请求端口：33001
+2020-11-25 14:10:16 INFO  Main:65 - 状态请求端口：33002
+2020-11-25 14:10:16 INFO  Main:66 - 上传文件端口：33003
+2020-11-25 14:10:16 INFO  Main:67 - 下载文件端口：33004
+2020-11-25 14:10:16 INFO  Main:70 - 正在启动服务..
+2020-11-25 14:10:16 INFO  Main:79 - 启动完成，网盘版本为：1.0.0启动耗时：71ms
+2020-11-25 14:10:25 INFO  Main:36 - 新的链接建立，IP：127.0.0.1
+2020-11-25 14:11:19 INFO  Main:38 - State socket 断开连接
+2020-11-25 14:16:15 INFO  Main:36 - 新的链接建立，IP：127.0.0.1
+2020-11-25 14:16:23 INFO  Main:38 - State socket 断开连接
+2020-11-25 14:20:10 INFO  Main:36 - 新的链接建立，IP：127.0.0.1
+2020-11-25 14:20:26 INFO  Main:38 - State socket 断开连接
+2020-11-25 14:20:34 INFO  Main:36 - 新的链接建立，IP：127.0.0.1
+2020-11-25 14:20:54 INFO  Main:38 - State socket 断开连接
+2020-11-25 14:21:19 INFO  Main:36 - 新的链接建立，IP：127.0.0.1
+2020-11-25 14:21:26 INFO  Main:38 - State socket 断开连接
+2020-11-25 14:21:44 INFO  Main:36 - 新的链接建立，IP：127.0.0.1
+2020-11-25 14:22:43 INFO  Main:38 - State socket 断开连接
+2020-11-25 14:24:01 INFO  Main:36 - 新的链接建立，IP：127.0.0.1
+2020-11-25 14:25:43 INFO  Main:38 - State socket 断开连接
+2020-11-25 14:25:46 INFO  Main:36 - 新的链接建立，IP：127.0.0.1
+2020-11-25 14:25:56 INFO  Main:38 - State socket 断开连接
+2020-11-25 14:26:35 INFO  Main:36 - 新的链接建立，IP：127.0.0.1
+2020-11-25 14:26:46 INFO  Main:38 - State socket 断开连接
+2020-11-25 14:28:37 INFO  Main:36 - 新的链接建立，IP：127.0.0.1
+2020-11-25 14:28:40 INFO  Main:38 - State socket 断开连接
+2020-11-25 14:28:44 INFO  Main:36 - 新的链接建立，IP：127.0.0.1
+2020-11-25 14:28:51 INFO  Main:38 - State socket 断开连接
+2020-11-25 14:30:00 INFO  Main:36 - 新的链接建立，IP：127.0.0.1
+2020-11-25 14:30:03 INFO  Main:38 - State socket 断开连接
+2020-11-25 14:30:25 INFO  Main:36 - 新的链接建立，IP：127.0.0.1
+2020-11-25 14:30:28 INFO  Main:38 - State socket 断开连接
+2020-11-25 14:33:57 INFO  Main:36 - 新的链接建立，IP：127.0.0.1
+2020-11-25 14:34:04 INFO  Main:38 - State socket 断开连接
+2020-11-25 14:35:06 INFO  Main:36 - 新的链接建立，IP：127.0.0.1
+2020-11-25 14:35:07 INFO  Main:38 - State socket 断开连接
+2020-11-25 14:35:22 INFO  Main:36 - 新的链接建立，IP：127.0.0.1
+2020-11-25 14:36:17 INFO  Main:38 - State socket 断开连接
+2020-11-25 14:36:59 INFO  Main:36 - 新的链接建立，IP：127.0.0.1
+2020-11-25 14:37:48 INFO  Main:38 - State socket 断开连接
+2020-11-25 14:41:46 INFO  Main:36 - 新的链接建立，IP：127.0.0.1
+2020-11-25 14:41:50 INFO  Main:38 - State socket 断开连接
+2020-11-25 14:42:37 INFO  Main:36 - 新的链接建立，IP：127.0.0.1
+2020-11-25 14:43:02 INFO  Main:38 - State socket 断开连接
+2020-11-25 14:43:39 INFO  Main:36 - 新的链接建立，IP：127.0.0.1
+2020-11-25 14:44:30 INFO  Main:38 - State socket 断开连接
+2020-11-25 14:44:41 INFO  Main:36 - 新的链接建立，IP：127.0.0.1
+2020-11-25 14:48:28 INFO  Main:38 - State socket 断开连接
+2020-11-25 14:48:40 INFO  Main:36 - 新的链接建立，IP：127.0.0.1
+2020-11-25 18:45:24 INFO  Main:38 - State socket 断开连接
