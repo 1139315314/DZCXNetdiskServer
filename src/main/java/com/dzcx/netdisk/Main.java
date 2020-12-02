@@ -1,6 +1,7 @@
 package com.dzcx.netdisk;
 
 import com.dzcx.netdisk.entity.Config;
+import com.dzcx.netdisk.entity.PublicListener;
 import com.dzcx.netdisk.listener.StateListener;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
@@ -68,7 +69,10 @@ public class Main {
 
         // 启动监听核心
         log.info("正在启动服务..");
+        // 服务器状态监听
         new StateListener(STATE_PORT).start();
+        // 公共请求监听
+        new PublicListener(PUBLIC_PORT).start();
 
 
 
