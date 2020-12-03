@@ -1,7 +1,7 @@
 package com.dzcx.netdisk;
 
 import com.dzcx.netdisk.entity.Config;
-import com.dzcx.netdisk.entity.PublicListener;
+import com.dzcx.netdisk.listener.PublicListener;
 import com.dzcx.netdisk.listener.StateListener;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;

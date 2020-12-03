@@ -1,6 +1,6 @@
-package com.dzcx.netdisk.entity;
+package com.dzcx.netdisk.listener;
 
-import com.dzcx.netdisk.listener.PublicSocket;
+import com.dzcx.netdisk.socket.PublicSocket;
 
 import java.io.IOException;
 import java.net.ServerSocket;

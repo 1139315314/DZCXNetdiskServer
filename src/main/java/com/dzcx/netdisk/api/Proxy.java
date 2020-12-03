@@ -26,4 +26,10 @@ public class Proxy implements API {
         log.info("获取服务器文件列表。。。");
         return api.getFileList(value);
     }
+
+    @Override
+    public String getText(JsonElement value) {
+        log.info("获取文本信息。。。");
+        return api.getText(value);
+    }
 }

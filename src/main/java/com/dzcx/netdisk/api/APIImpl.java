@@ -3,6 +3,7 @@ package com.dzcx.netdisk.api;
 import com.dzcx.netdisk.Main;
 import com.dzcx.netdisk.entity.Config;
 import com.dzcx.netdisk.entity.FileBean;
+import com.dzcx.netdisk.util.implement.IOImp;
 import com.google.gson.Gson;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonParser;
@@ -35,6 +36,7 @@ public class APIImpl implements API {
     @Override
     public String getFileList(JsonElement value) {
         String path = value.getAsString();
+        // 不是公开外链则拼接文件的路径
         if (config.getPublicFile() == null || !path.startsWith(config.getPublicFile())) {
             path = Main.root + path;
         }
@@ -42,7 +44,7 @@ public class APIImpl implements API {
         FileBean file;
         File[] files = new File(path).listFiles();
         if (files == null) return "null";
-        // 文件夹
+        // 遍历所有文件夹
         for (int i = 0, l = files.length; i < l; i++) {
             if (files[i].isHidden()) continue;
             if (!files[i].isFile()) {
@@ -53,8 +55,8 @@ public class APIImpl implements API {
             }
         }
         // 文件
-        String name, format = "unknown";
         for (int i = 0, l = files.length; i < l; i++) {
+            String name, format = "unknown";
             if (files[i].isHidden()) continue;
             if (files[i].isFile()) {
                 name = files[i].getName();
@@ -66,6 +68,11 @@ public class APIImpl implements API {
                 list.add(file);
             }
         }
-        return gson.toJson(list).toString();
+        return gson.toJson(list);
+    }
+
+    @Override
+    public String getText(JsonElement value) {
+        return new IOImp().fileToString(new File(Main.root + value.getAsString()), "UTF-8");
     }
 }

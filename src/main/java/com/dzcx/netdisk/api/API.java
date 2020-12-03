@@ -9,4 +9,7 @@ public interface API {
 
     // 获取文件列表
     public String getFileList(JsonElement value);
+
+    // 获取文本数据
+    public String getText(JsonElement value);
 }

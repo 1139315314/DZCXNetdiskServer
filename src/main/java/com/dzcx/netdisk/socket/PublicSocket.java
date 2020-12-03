@@ -1,4 +1,4 @@
-package com.dzcx.netdisk.listener;
+package com.dzcx.netdisk.socket;
 
 import com.dzcx.netdisk.Main;
 import com.dzcx.netdisk.api.APIFactory;
@@ -48,8 +48,7 @@ public class PublicSocket extends Thread {
 						//APIFactory.getApi().setText(value);
 						break;
 					case "getText":          // 获取文本
-						// TODO 获取文本
-						//response(APIFactory.getApi().getText(value));
+						response(APIFactory.getApi().getText(value));
 						break;
 					case "getImg":           // 获取图片
 						// TODO 获取图片
