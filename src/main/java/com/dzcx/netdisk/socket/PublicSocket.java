@@ -169,17 +169,20 @@ public class PublicSocket extends Thread {
 	// 获取原图
 	private void responseImg(String path) throws Exception {
 		File file = new File(Main.root + path);
+		// 发送文件的大小过去客户端
 		response("size" + file.length());
 		InputStream is = socket.getInputStream();
 		BufferedReader br = new BufferedReader(new InputStreamReader(is, "UTF-8"));
+		// 当客户端收到ready准备好的信号之后，服务器开始发送数据
 		if (br.readLine().equals("ready")) {
 			DataOutputStream dos = new DataOutputStream(socket.getOutputStream());
 			FileInputStream fis = new FileInputStream(file);
-			byte[] buffer = new byte[4096];
+			byte[] buffer = new byte[2];//[4096];
 			int l = 0;
 			while ((l = fis.read(buffer)) != -1) {
 				dos.write(buffer, 0, l);
 			}
+			// 发送完数据之后，关闭全部
 			fis.close();
 			dos.flush();
 			dos.close();
