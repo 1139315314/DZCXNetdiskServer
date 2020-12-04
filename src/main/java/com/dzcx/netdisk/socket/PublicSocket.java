@@ -117,7 +117,7 @@ public class PublicSocket extends Thread {
 						//response(APIFactory.getApi().getPhotoInfo(value));
 						break;
 					case "getMP4Info":       // 获取 MP4 元数据
-						//response(APIFactory.getApi().getMP4Info(value));
+						response(APIFactory.getApi().getMP4Info(value));
 						break;
 				}
 			response("finish");

@@ -32,4 +32,10 @@ public class Proxy implements API {
         log.info("获取文本信息。。。");
         return api.getText(value);
     }
+
+    @Override
+    public String getMP4Info(JsonElement value) {
+        log.info("获取视频信息。。。");
+        return api.getMP4Info(value);
+    }
 }

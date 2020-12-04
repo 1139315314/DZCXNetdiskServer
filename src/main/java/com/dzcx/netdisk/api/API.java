@@ -12,4 +12,7 @@ public interface API {
 
     // 获取文本数据
     public String getText(JsonElement value);
+
+    // 获取视频的数据
+    public String getMP4Info(JsonElement value);
 }

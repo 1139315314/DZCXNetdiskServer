@@ -1,8 +1,14 @@
 package com.dzcx.netdisk.api;
 
+import com.drew.imaging.ImageMetadataReader;
+import com.drew.metadata.Directory;
+import com.drew.metadata.Metadata;
+import com.drew.metadata.Tag;
+
 import com.dzcx.netdisk.Main;
 import com.dzcx.netdisk.entity.Config;
 import com.dzcx.netdisk.entity.FileBean;
+import com.dzcx.netdisk.entity.MP4Info;
 import com.dzcx.netdisk.util.implement.IOImp;
 import com.google.gson.Gson;
 import com.google.gson.JsonElement;
@@ -74,5 +80,34 @@ public class APIImpl implements API {
     @Override
     public String getText(JsonElement value) {
         return new IOImp().fileToString(new File(Main.root + value.getAsString()), "UTF-8");
+    }
+
+    @Override
+    public String getMP4Info(JsonElement value) {
+        MP4Info info = new MP4Info();
+
+        File file = new File(Main.root + SEP + value.getAsString());
+        Metadata metadata = null;
+        try {
+            // 获取视频文件
+            metadata = ImageMetadataReader.readMetadata(file);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        for (Directory dir : metadata.getDirectories()) {
+            if (dir == null) continue;
+            for (Tag tag : dir.getTags()) {
+                String tagName = tag.getTagName();
+                String desc = tag.getDescription();
+                if ("Width".equals(tagName)) {
+                    info.setWidth(desc.replaceAll(" pixels", ""));
+                } else if ("Height".equals(tagName)) {
+                    info.setHeight(desc.replaceAll(" pixels", ""));
+                } else if ("Rotation".equals(tagName)) {
+                    info.setDeg(Integer.valueOf(desc));
+                }
+            }
+        }
+        return gson.toJson(info);
     }
 }
