@@ -1,8 +1,10 @@
 package com.dzcx.netdisk;
 
 import com.dzcx.netdisk.entity.Config;
+import com.dzcx.netdisk.listener.DownloadListener;
 import com.dzcx.netdisk.listener.PublicListener;
 import com.dzcx.netdisk.listener.StateListener;
+import com.dzcx.netdisk.listener.UploadListener;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
@@ -73,6 +75,11 @@ public class Main {
         new StateListener(STATE_PORT).start();
         // 公共请求监听
         new PublicListener(PUBLIC_PORT).start();
+
+        new DownloadListener(DOWNLOAD_PORT).start();
+
+        new UploadListener(UPLOAD_PORT).start();
+
 
 
 
